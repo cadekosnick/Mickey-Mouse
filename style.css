@@ -48,8 +48,30 @@ a:hover{
     filter: grayscale(100%);
 }
 
+.site{
+    background-color: white;
+    width: 90%;
+    margiin: 0 auto;
+    border: 1px solid black;
+}
+
 footer{
     text-align: center;
     font-style: italic;
     font-size: small;
+}
+
+aside{
+    float: left;
+    width: 25%;
+}
+
+main{
+    float: left;
+    width: 75%;
+}
+
+@media only screen and (max-width: 600px){
+    aside{float: none; width: 100%;}
+    main{float: none; width: 100%;}
 }
